@@ -2,9 +2,11 @@ html
   head
     meta charset="utf-8"
     link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:300' rel='stylesheet' type='text/css'
-    title A Brand New nanoc Site - #{@item[:title]}
+    title Learn and Memorize Times Tables - Multiply
     link rel="stylesheet" href="/stylesheets/stylesheet.css"
-    meta name="generator" content="nanoc <%= Nanoc::VERSION %>"
+    meta name="generator" content="nanoc #{Nanoc::VERSION}"
+    link rel="shortcut icon" href="/images/favicon.ico"
+    meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
   body
     == yield
     script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"
